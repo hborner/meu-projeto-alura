@@ -11,8 +11,9 @@ import br.com.caelum.argentum.reader.LeitorXML;
 
 public class ClienteWebService {
 
-	private static final String URL_WEBSERVICE = "http://argentumws-spring.herokuapp.com/negociacoes";
-							//String URL_WEBSERVICE = "http://argentumws.caelum.com.br/negociacoes";		// alteração cfe FORUM
+	private static final String URL_WEBSERVICE = 	//"http://argentumws-spring.herokuapp.com/negociacoes";
+							"http://argentumws.caelum.com.br/negociacoes";		
+							// alteração cfe FORUM
 
 	public List<Negociacao> getNegociacoes() {
 
